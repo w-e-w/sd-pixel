@@ -1,9 +1,7 @@
-import cv2
-import numpy as np
 from PIL import Image
 from modules import scripts_postprocessing
 import gradio as gr
-from modules.ui_components import FormRow, FormColumn, FormGroup, ToolButton, FormHTML
+from modules.ui_components import FormRow, FormGroup
 
 mode_dict = {"Nearest": Image.NEAREST,
              "Bicubic": Image.BICUBIC,
